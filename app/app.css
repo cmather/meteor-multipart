@@ -1,0 +1,17 @@
+/* CSS declarations go here */
+body {
+  font-size: 16px;
+  font-family: Arial;
+  margin: 0 auto;
+  padding: 20px;
+  width: 600px;
+}
+
+form input {
+  margin: 10px 0px;
+}
+
+form input[type=text] {
+  padding: 10px;
+  min-width: 200px;
+}
