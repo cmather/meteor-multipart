@@ -15,7 +15,7 @@ function tmpPath () {
 }
 
 multipart = function (opts = {}) {
-  return function middlewareMiddleware (request, response, next) {
+  return function multipartMiddleware (request, response, next) {
     if (request.method == 'POST' || request.method == 'PUT' || request.method == 'PATCH') {
       var busboy = new Busboy(request);
       var cleanupPaths = []
